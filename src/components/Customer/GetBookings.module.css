@@ -1,0 +1,86 @@
+.main{
+    color: #363636;
+}
+.heading{
+    padding: 2rem 1rem 1rem 0;
+    margin-left: 5rem;
+    font-size: 30px;
+    color: white;
+}
+.subHeading {
+    margin-left: 5rem;
+    margin-top: -35px;
+    color: white;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-between;*/
+    margin-left: 3rem;
+    margin-right: 3rem;
+    /*margin-right: 5rem;*/
+    flex-wrap: wrap;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-bottom: 5px;
+}
+
+.oneTown {
+    padding: 25px 15px 25px 15px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+
+.header {
+    /*cursor: pointer;*/
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.content{
+    padding-left: 20px;
+
+}
+.details {
+    cursor: pointer;
+    margin-top: -10px;
+}
+
+.cardBody {
+    /*padding: 3rem;*/
+    /*margin: 5rem;*/
+    justify-content: space-around;
+    background: rgba(255, 255, 255, 0.65) !important;
+
+
+}
+.buttons{
+    padding-top: 20PX;
+    padding-bottom: 10px;
+}
+.payNowButton {
+    margin-left: 10px;
+    background: #021757;
+}
+.cancelButton {
+    margin-left: 10px;
+    background: #bd1041;
+
+}
+.cancelButton:hover{
+    background: #d41e52;
+}
+.closeIcon{
+    color: #e24444;
+    display: block;
+    margin-left: 14rem;
+    cursor: pointer;
+    /*size: 110%;*/
+}
+.payNowStripe{
+    margin-left: 20px;
+    /*border-radius: 10%!important;*/
+}

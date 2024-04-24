@@ -1,0 +1,95 @@
+.main{
+    color: #363636;
+}
+.heading{
+    padding: 2rem 1rem 1rem 0;
+    margin-left: 5rem;
+    font-size: 30px;
+    color: #120a4e;
+
+}
+.subHeading {
+    margin-left: 5rem;
+    margin-top: -35px;
+    color: #120a4e;
+    margin-bottom: 50px;
+
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 1rem;
+
+    /*margin-right: 5rem;*/
+}
+.title {
+    align-content: center;
+    padding-left: 10px;
+    color: #120c5c;
+}
+.cardBody {
+    width: 220px;
+    height: 75px;
+    padding: 10px 10px 10px 10px;
+    /*margin: 2rem 2rem 2rem 2rem ;*/
+    margin-right: 60px;
+    align-content: center;
+    cursor: pointer;
+    font-size: 10px;
+    margin-left: 20px!important;
+
+    border-style: solid;
+    border-bottom-width: 7px;
+    border-color: #374ab6;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+
+    background: rgba(255, 255, 255, 0.3) !important;
+
+}
+.cardBody:hover {
+    background: rgba(181, 222, 255, 0.54) !important;
+}
+.countName{
+    color: #120a4e;
+    text-align: center;
+}
+.count {
+    font-size: 80px;
+    font-weight: bolder;
+    color: purple;
+    margin-left: 5rem;
+    margin-top: -1rem;
+}
+.countCardBody{
+    width: 250px;
+    height: 200px;
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 2rem 2rem 2rem 2rem ;
+    /*align-content: center;*/
+    cursor: pointer;
+
+
+    background: rgba(255, 255, 255, 0.68) !important;
+}
+.countDown {
+    font-size: 50px;
+    padding-left: 30px;
+    padding-right: 100px;
+    color: #616161;
+    padding-top: 50px;
+}
+.space {
+    padding-top: 2rem;
+}
+.rowBottom {
+    display: flex;
+    flex-direction: row;
+    margin-top: -13px;
+    margin-bottom: -13px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 1rem;
+}
